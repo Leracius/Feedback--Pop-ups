@@ -1,0 +1,140 @@
+body {
+    background: gainsboro;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background: white;
+    width: 491px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5em;
+    box-shadow: 5px 5px 10px rgb(175, 175, 175);;
+}
+
+/* Cerrar */
+
+.close {
+    justify-content: center;
+    display: flex;
+    color: gray;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    align-self: flex-end;    
+    margin-top: 1em;
+    margin-right: 1em;
+    border: solid;
+    border-color: gainsboro;
+    border-width: thin;
+    border-radius: 50%;
+}
+
+/*Margenes*/
+
+.text, .levelsatisfy, .btndad, .checkbx, .btn, hr {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.text{
+    color: #151a41;
+    font-size: 22px;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+/*Contenedor de los botones*/
+
+.btndad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+/*BOTONES 1-5*/
+
+.botonera {
+    font-weight: 600;
+    width: 19%;
+    height: 2.5em;
+    font-size: 20px;
+    background-color: white;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    border-radius: 0.4em;
+    border-width: thin;
+    cursor: pointer;
+}
+.botonera:hover {
+    border: none;
+    background-color: #ff0099;
+    color: white;
+    box-shadow: 2px 2px 8px #ff0099 ;
+}
+
+/* Nivel de satisfaccion*/
+
+.levelsatisfy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1.75em;
+    font-weight: 600;
+}
+.textleft {
+    width: 50%;
+    text-align: left;
+
+}
+.textright {
+    text-align: right;
+
+}
+
+/* Salto */
+
+hr {
+    border-style: solid;
+    color: rgb(168, 168, 168);
+    margin-bottom: 1.5em;
+}
+
+/*Input*/
+
+input {
+    transform: scale(1.5);
+}
+.checkbx {
+    margin-bottom: 1.5em;
+
+}
+
+/*Boton final*/
+
+.btn {
+    display: grid;
+}
+.botonfinal {
+    width: 100%;
+    height: 4em;
+    font-size: 16px;
+    background-color: white;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    border-radius: 0.4em;
+    border-width: thin;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.botonfinal:hover {
+    border: none;
+    background-color:#151a41;
+    color: white;
+    box-shadow: 2px 2px 8px #151a41 ;
+}
